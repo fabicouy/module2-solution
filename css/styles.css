@@ -1,1 +1,89 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
 
+/* lore ipsum text size */
+p {
+	font-size: 14px;
+}
+
+/* Main Title */
+#titulo {
+	text-align: center;
+	margin: 50px 0px 50px 0px;
+	font-size: 175%;
+}
+
+/* Main Row-Content */
+#fila {
+	width: 100%;
+	padding: 0px 10px 0px 10px;
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile view **********/
+@media (max-width: 767px) {
+ .col-sm-12 {
+    float: left;
+    width: 100%
+  }
+}
+
+/********** Boxes **********/
+div.box {
+	float: left;
+	background: #4b9bd7;
+	margin:10px 20px 10px 20px;
+	border:solid 1px #000000;
+}
+
+/********** Sub Titles Boxes **********/
+#box-title-1, #box-title-2, #box-title-3 {
+	float: right;
+	border: 1px solid #000;
+	min-width: 190px;
+	height: 50px;
+	text-align: center;
+}
+#box-title-1 {
+	background: #e09296;
+}
+#box-title-2 {
+	background: #d12d3a;
+}
+#box-title-3 {
+	background: #e8d391;
+}
+div h2 {
+	font-size: 125%;
+	margin-top: 14px;
+}
+
+/********** Paragraphs **********/
+div.text p {
+	float: left;
+	margin:15px;
+}
